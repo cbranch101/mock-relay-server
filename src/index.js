@@ -1,4 +1,5 @@
 /* eslint-disable import/prefer-default-export */
+import 'babel-polyfill'
 
 import { fromGlobalId } from './id-helpers'
 import getMockedConnection from './get-mocked-connection'

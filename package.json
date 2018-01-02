@@ -4,7 +4,7 @@
     "description": "a simple library for generating functions to call in relay server mocks",
     "main": "lib/index.js",
     "scripts": {
-        "compile": "babel --presets es2015,stage-2 -d lib/ src/",
+        "compile": "babel --presets es2015,stage-2 -d lib/ src/ --ignore '**/*.spec.js'",
         "test": "jest",
         "lint": "./node_modules/.bin/eslint src/",
         "prepublish": "npm run compile"
@@ -41,6 +41,7 @@
         "regenerator-runtime": "^0.11.1"
     },
     "dependencies": {
+        "babel-polyfill": "^6.26.0",
         "babel-preset-es2016": "^6.24.1",
         "chance": "^1.0.12",
         "graphql-relay": "^0.5.4",
