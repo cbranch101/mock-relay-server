@@ -1,6 +1,6 @@
 {
     "name": "mock-relay-server",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "a simple library for generating functions to call in relay server mocks",
     "main": "lib/index.js",
     "scripts": {
