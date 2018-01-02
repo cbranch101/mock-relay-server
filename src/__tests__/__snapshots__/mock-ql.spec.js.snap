@@ -1,0 +1,190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`can mock create mutations 1`] = `
+Object {
+  "data": Object {
+    "addWidget": Object {
+      "cost": 10,
+      "id": "Widget__c975ab53-1c23-5eaa-bcd9-0f1dd7efa768",
+      "name": "Updated Name",
+    },
+  },
+}
+`;
+
+exports[`can mock create mutations 2`] = `
+Object {
+  "data": Object {
+    "viewer": Object {
+      "user": Object {
+        "company": Object {
+          "averageCost": 100,
+          "name": "Company One",
+          "widgetList": Object {
+            "edges": Array [
+              Object {
+                "node": Object {
+                  "id": "Widget__one",
+                  "name": "widget one",
+                },
+              },
+              Object {
+                "node": Object {
+                  "id": "Widget__two",
+                  "name": "widget two",
+                },
+              },
+              Object {
+                "node": Object {
+                  "id": "Widget__three",
+                  "name": "widget three",
+                },
+              },
+              Object {
+                "node": Object {
+                  "id": "Widget__c975ab53-1c23-5eaa-bcd9-0f1dd7efa768",
+                  "name": "Updated Name",
+                },
+              },
+            ],
+          },
+        },
+        "name": "Clay Branch",
+      },
+    },
+  },
+}
+`;
+
+exports[`can mock delete mutations 1`] = `
+Object {
+  "data": Object {
+    "deleteWidget": Object {
+      "cost": 10,
+      "id": "Widget__one",
+      "name": "widget one",
+    },
+  },
+}
+`;
+
+exports[`can mock delete mutations 2`] = `
+Object {
+  "data": Object {
+    "viewer": Object {
+      "user": Object {
+        "company": Object {
+          "averageCost": 100,
+          "name": "Company One",
+          "widgetList": Object {
+            "edges": Array [
+              Object {
+                "node": Object {
+                  "id": "Widget__two",
+                  "name": "widget two",
+                },
+              },
+              Object {
+                "node": Object {
+                  "id": "Widget__three",
+                  "name": "widget three",
+                },
+              },
+            ],
+          },
+        },
+        "name": "Clay Branch",
+      },
+    },
+  },
+}
+`;
+
+exports[`can mock queries 1`] = `
+Object {
+  "data": Object {
+    "viewer": Object {
+      "user": Object {
+        "company": Object {
+          "averageCost": 100,
+          "name": "Company One",
+          "widgetList": Object {
+            "edges": Array [
+              Object {
+                "node": Object {
+                  "id": "Widget__two",
+                  "name": "widget two",
+                },
+              },
+            ],
+          },
+        },
+        "name": "Clay Branch",
+      },
+    },
+  },
+}
+`;
+
+exports[`can mock update mutations 1`] = `
+Object {
+  "data": Object {
+    "updateWidget": Object {
+      "clientMutationId": "mutationId",
+      "cost": 10,
+      "id": "Widget__one",
+      "name": "Updated Name",
+    },
+  },
+}
+`;
+
+exports[`can mock update mutations 2`] = `
+Object {
+  "data": Object {
+    "viewer": Object {
+      "user": Object {
+        "company": Object {
+          "averageCost": 100,
+          "name": "Company One",
+          "widgetList": Object {
+            "edges": Array [
+              Object {
+                "node": Object {
+                  "id": "Widget__one",
+                  "name": "Updated Name",
+                },
+              },
+              Object {
+                "node": Object {
+                  "id": "Widget__two",
+                  "name": "widget two",
+                },
+              },
+              Object {
+                "node": Object {
+                  "id": "Widget__three",
+                  "name": "widget three",
+                },
+              },
+            ],
+          },
+        },
+        "name": "Clay Branch",
+      },
+    },
+  },
+}
+`;
+
+exports[`can query for a single item 1`] = `
+Object {
+  "data": Object {
+    "node": Object {
+      "cost": 10,
+      "id": "Widget__one",
+      "name": "widget one",
+    },
+  },
+}
+`;

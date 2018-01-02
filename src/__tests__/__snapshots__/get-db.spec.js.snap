@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`can find and insert items 1`] = `
+Array [
+  Object {
+    "id": "1",
+    "name": "tom",
+  },
+  Object {
+    "id": "2",
+    "name": "larry",
+  },
+]
+`;
+
+exports[`can find and insert items 2`] = `
+Object {
+  "id": "c975ab53-1c23-5eaa-bcd9-0f1dd7efa768",
+  "name": "john",
+}
+`;
+
+exports[`can find and insert items 3`] = `
+Array [
+  Object {
+    "id": "1",
+    "name": "tom",
+  },
+  Object {
+    "id": "2",
+    "name": "larry",
+  },
+  Object {
+    "id": "c975ab53-1c23-5eaa-bcd9-0f1dd7efa768",
+    "name": "john",
+  },
+]
+`;
+
+exports[`can find item by ID 1`] = `
+Object {
+  "id": "2",
+  "text": "the second post",
+}
+`;
+
+exports[`can update users 1`] = `
+Object {
+  "id": "1",
+  "name": "updatedName",
+}
+`;
+
+exports[`can update users 2`] = `
+Array [
+  Object {
+    "id": "1",
+    "name": "updatedName",
+  },
+  Object {
+    "id": "2",
+    "name": "larry",
+  },
+]
+`;
