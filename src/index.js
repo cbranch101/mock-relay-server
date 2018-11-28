@@ -3,6 +3,7 @@ import 'babel-polyfill'
 
 import { fromGlobalId } from './id-helpers'
 import getMockedConnection from './get-mocked-connection'
+import getCollection from './getCollection';
 
 export const getMockedResolvers = (connections) => {
     const mockedConnections = Object.keys(connections).reduce((memo, type) => {
@@ -51,5 +52,7 @@ export const getMockedResolvers = (connections) => {
         },
     }
 }
+
+export const getCollection;
 
 /* eslint-enable import/prefer-default-export */
