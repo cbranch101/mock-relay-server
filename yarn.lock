@@ -1865,17 +1865,17 @@ graphql-relay@^0.5.4:
   version "0.5.4"
   resolved "https://registry.yarnpkg.com/graphql-relay/-/graphql-relay-0.5.4.tgz#58050cfe16118595f82ab3aabfc974546ce755a8"
 
-graphql-tools@^2.14.0:
+graphql-tools@2.14.0:
   version "2.14.0"
-  resolved "https://registry.yarnpkg.com/graphql-tools/-/graphql-tools-2.14.0.tgz#9a8e6d89724f68f8c5aea220ee634a690b62f670"
+  resolved "https://rbcplatform.artifactoryonline.com/rbcplatform/api/npm/npm-virtual/graphql-tools/-/graphql-tools-2.14.0.tgz#9a8e6d89724f68f8c5aea220ee634a690b62f670"
   dependencies:
     apollo-utilities "^1.0.1"
     deprecated-decorator "^0.1.6"
     uuid "^3.1.0"
 
-graphql@^0.12.3:
+graphql@0.12.3:
   version "0.12.3"
-  resolved "https://registry.yarnpkg.com/graphql/-/graphql-0.12.3.tgz#11668458bbe28261c0dcb6e265f515ba79f6ce07"
+  resolved "https://rbcplatform.artifactoryonline.com/rbcplatform/api/npm/npm-virtual/graphql/-/graphql-0.12.3.tgz#11668458bbe28261c0dcb6e265f515ba79f6ce07"
   dependencies:
     iterall "1.1.3"
 
@@ -2256,7 +2256,7 @@ istanbul-reports@^1.1.3:
 
 iterall@1.1.3:
   version "1.1.3"
-  resolved "https://registry.yarnpkg.com/iterall/-/iterall-1.1.3.tgz#1cbbff96204056dde6656e2ed2e2226d0e6d72c9"
+  resolved "https://rbcplatform.artifactoryonline.com/rbcplatform/api/npm/npm-virtual/iterall/-/iterall-1.1.3.tgz#1cbbff96204056dde6656e2ed2e2226d0e6d72c9"
 
 jest-changed-files@^21.2.0:
   version "21.2.0"
