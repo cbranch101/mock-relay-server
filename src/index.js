@@ -53,6 +53,5 @@ export const getMockedResolvers = (connections) => {
     }
 }
 
-export const getCollection;
-
+export const getMockCollection = getCollection
 /* eslint-enable import/prefer-default-export */
